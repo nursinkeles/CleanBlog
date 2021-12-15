@@ -1,0 +1,25 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nursinkeles/CleanBlog.git"
+  },
+  "author": "Nurşin Keleş",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nursinkeles/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/nursinkeles/CleanBlog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
