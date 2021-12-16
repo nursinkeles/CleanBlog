@@ -3,8 +3,10 @@ const path = require("path");
 
 const app = express();
 const ejs = require("ejs");
+
 // TEMPLATE ENGINE
 app.set("view engine", "ejs");
+
 // MIDDLEWARES
 app.use(express.static("public"));
 
