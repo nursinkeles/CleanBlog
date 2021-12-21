@@ -4,8 +4,7 @@ const Schema = mongoose.Schema;
 //connect Schema
 const PostSchema = new Schema({
   title: String,
-  description: String,
-  img: String,
+  detail: String,
   dateCreated: {
     type: Date,
     default: Date.now,

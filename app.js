@@ -29,6 +29,10 @@ app.get("/", async (req, res) => {
   const posts = await Post.find({});
   res.render("index", { posts });
 });
+app.get("/posts/:id", async (req, res) => {
+  const posts = await Post.findById(req.params.id);
+  res.render("post", { posts });
+});
 app.get("/about", (req, res) => {
   res.render("about");
 });
